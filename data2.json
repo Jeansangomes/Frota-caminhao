@@ -1,0 +1,55 @@
+{
+  "caminhoes": [
+    {
+      "id": 23,
+      "apelido": "Trovão azul",
+      "placa": "HAA1234",
+      "ano": "1994",
+      "cor": "Azul",
+      "rendimento": 12
+    },
+    {
+      "id": 78,
+      "apelido": "Cerejinha",
+      "placa": "HAB1235",
+      "ano": "20033",
+      "cor": "Vermelho",
+      "rendimento": 8
+    },
+    {
+      "id": 51,
+      "apelido": "Raio negro",
+      "placa": "HCV-5123",
+      "ano": "2022",
+      "cor": "Amarelo",
+      "rendimento": 18
+    }
+  ],
+  "localidades": [
+    {
+      "id": 15,
+      "nome": "Itabuna(BA)",
+      "distancia": 1180
+    },
+    {
+      "id": 934,
+      "nome": "Conceição do Mato Dentro (MG)",
+      "distancia": 428
+    }
+  ],
+
+  "viagens": [
+    {
+      "id": 151,
+      "id_caminhao": 23,
+      "id_localidade": 15,
+      "data": "10/10/2010"
+    },
+    {
+      "id": 152,
+      "id_caminhao": 78,
+      "id_localidade": 934,
+      "data": "11/10/2010"
+    }
+  ]
+}

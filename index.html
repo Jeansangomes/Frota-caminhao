@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frota_caminhões</title>
+
+  <style>
+    body,
+    h1,
+    h2,
+    h3,
+    ul,
+    li,
+    dt,
+    dd,
+    dl,
+    p {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    ul {
+      list-style: none;
+      /*tirar as boinhas das listas*/
+    }
+
+    body {
+      background-color: #faf6ed;
+      color: #222;
+      display: grid;
+      /*fazer que se comporte no grid*/
+      grid-template-columns: 1fr, minmax(300px, 800px) 1fr;
+      /*colocando 1fr 1fr é colunas de cada ponta, deu 4 colunas a 3ª coluna é do minmax*/
+    }
+
+    .menu {
+      grid-column: 1 / 3;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      background-color: #FCCE00;
+    }
+
+    .menu ul {
+      display: flex;
+      /*fazer um ficar do lado da outra*/
+      flex-wrap: wrap;
+      /*ficar resposnivel*/
+    }
+
+    .menu li a {
+      display: block;
+      padding: 10px;
+      margin-right: 10px;
+      color: #222;
+      text-decoration: none;
+      font-family: monospace;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 0.875rem;
+      letter-spacing: .1em;
+    }
+  </style>
+
+</head>
+<h1> Seja bem vindo ao site de cadastro de caminhões!</h1>
+
+<body>
+
+  <nav class=" menu ">
+    <ul>
+      <li><a href="#caminhões">Caminhões</a></li>
+      <li><a href="#viagens">Viagens</a></li>
+      <li><a href="#localidades">Localidades</a></li>
+      <li><a href="https://github.com/Jeansangomes" target="_blank">Dev→</a></li>
+    </ul>
+  </nav>
+</body>
+
+
+</html>
